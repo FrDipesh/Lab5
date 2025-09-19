@@ -5,7 +5,6 @@ public class Main {
         Scanner scan = new Scanner(System.in);
         double itemPrice = 0;
         double shippingRate = 0.02;
-        int FREE_SHIPPING;
         double shippingCost;
         double totalCost;
 
@@ -19,12 +18,12 @@ public class Main {
         }
 
         if(itemPrice >= 100) {
-            System.out.println("You spent $100! You get FREE SHIPPING!");
+            System.out.println("You spent over $100! You get FREE SHIPPING!");
         }
         else{
             shippingCost = itemPrice * shippingRate;
             totalCost = shippingCost + itemPrice;
-            System.out.println("Your shipping cost is: " + );
+            System.out.println("Your shipping cost is:$ " + shippingCost + " and your total order cost is:$ " + totalCost);
         }
     }
 }
