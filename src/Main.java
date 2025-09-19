@@ -23,7 +23,7 @@ public class Main {
         else{
             shippingCost = itemPrice * shippingRate;
             totalCost = shippingCost + itemPrice;
-            System.out.println("Your shipping cost is:$ " + shippingCost + " and your total order cost is:$ " + totalCost);
+            System.out.println("Your shipping cost is:$" + shippingCost + " and your total order cost is:$" + totalCost);
         }
     }
 }
