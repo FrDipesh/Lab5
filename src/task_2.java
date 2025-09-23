@@ -13,10 +13,13 @@ public class task_2 {
             System.out.println("You entered an invalid birth month. Please enter a month from 1-12: ");
             System.exit(0);
         }
-        System.out.println("Your birth month is: " + birthMonth);
 
-        if () {
+        if (birthMonth >= 1 && birthMonth <=12) {
+            System.out.println("Your birth month is: " + birthMonth);
         }
-
+        else if (birthMonth > 12 || birthMonth <1) {
+            System.out.println("You entered an invalid birth month. Please enter a month from 1-12: ");
+            System.exit(0);
+        }
     }
 }
